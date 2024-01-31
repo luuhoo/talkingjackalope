@@ -1,0 +1,10 @@
+{
+    "name": "The_Jackalope",
+    "version_number": "1.0.0",
+        "description": "Adds a talking Jackalope card to Act 1, with un-programmed lore.",
+    "dependencies": [
+      "BepInEx-BepInExPack_Inscryption-5.4.1901",
+      "API_dev-API-2.9.1",
+      "MADH95Mods-JSONCardLoader-2.3.0"
+    ]
+}
