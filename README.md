@@ -6,13 +6,13 @@ She can be found randomly via. random card draws or trader's inventories. I'd li
 
 Jackalope has unique lore, animated portraits, a unique voice pitch, and unique dialogue for nearly every in-game situational (excluding between-cards conversations, e.g. Stoat and Stinkbug talking to each other)
 
-In addition, this mod also adds 2 starter decks:
+In addition, this mod also adds 2 starter decks:*
 | Name           | Cards                                            |
 |----------------|--------------------------------------------------|
 | Creation	 | Jackalope (Talking), Elk, Wolf, Stoat, Cockroach |
 | Moon's Embrace | Jackalope (Talking), Raven, Grizzly Bear, Cat    |
 
-
+*Starter decks do not seem to be selectable. If there's a way to fix that, please let me know! Maybe I just typed the card IDs in wrong?
 # Installation
 This mod’s dependencies are BepInEx, the InscryptionAPI, JSONCardLoader and TalkingCardAPI.
 
