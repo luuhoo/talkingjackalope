@@ -1,0 +1,22 @@
+{
+  "name": "luu_Jackalope",
+  "modPrefix": "luu",
+  "displayedName": "Jackalope",
+  "description": "...A disgusting little beast. Take it. Get it out of my sight.",
+  "metaCategories": [
+    "ChoiceNode"
+  ],
+  "cardComplexity": "Vanilla",
+  "temple": "Nature",
+  "baseAttack": 4,
+  "baseHealth": 3,
+  "bloodCost": 2,
+  "tribes": [],
+  "traits": [],
+  "abilities": [],
+  "specialAbilities": [],
+  "onePerDeck": true,
+  "flipPortraitForStrafe": false,
+  "tailName": "Tail_Furry",
+  "pixelTexture": "luu_rabbit_PixelSprite.png"
+}

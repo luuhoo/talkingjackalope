@@ -1,0 +1,323 @@
+{
+  "cardName": "luu_Jackalope",
+  "faceSprite": "face.png",
+  "eyeSprites": {
+    "open": "neutral_eye_open.png",
+    "closed": "neutral_eye_closed.png"
+  },
+  "mouthSprites": {
+    "open": "neutral_mouth_open.png",
+    "closed": "neutral_mouth_closed.png"
+  },
+  "emissionSprite": "neutral_emission.png",
+  "faceInfo": {
+    "blinkRate": 1.5,
+    "voiceId": "female1_voice",
+    "voiceSoundPitch": 1.5
+  },
+  "emotions": [
+    {
+      "emotion": "Anger",
+      "eyeSprites": {
+        "open": "angry_eye_open.png",
+        "closed": "angry_eye_closed.png"
+      },
+      "mouthSprites": {
+        "open": "angry_mouth_open.png",
+        "closed": "angry_mouth_closed.png"
+      },
+      "emissionSprite": "angry_emission.png"
+    },
+    {
+      "emotion": "Quiet",
+      "eyeSprites": {
+        "open": "quiet_eye_open.png",
+        "closed": "quiet_eye_closed.png"
+      },
+      "mouthSprites": {
+        "open": "angry_mouth_open.png",
+        "closed": "angry_mouth_closed.png"
+      },
+      "emissionSprite": "quiet_emission.png"
+    },
+    {
+      "emotion": "Laughter",
+      "eyeSprites": {
+        "open": "laughing_eye_open.png",
+        "closed": "laughing_eye_closed.png"
+      },
+      "mouthSprites": {
+        "open": "neutral_mouth_open.png",
+        "closed": "neutral_mouth_closed.png"
+      }
+    },
+    {
+      "emotion": "Surprise",
+      "eyeSprites": {
+        "open": "surprised_eye_open.png",
+        "closed": "surprised_eye_closed.png"
+      },
+      "mouthSprites": {
+        "open": "surprised_mouth_open.png",
+        "closed": "surprised_mouth_closed.png"
+      },
+      "emissionSprite": "surprised_emission.png"
+    }
+  ],
+  "dialogueEvents": [
+    {
+      "eventName": "OnDrawn",
+      "mainLines": [
+        "[e:surprise][c:dO]Lesh-[c:][w:1] Oh. [w:0.5]Hello.",
+        "[e:quiet]You must be [w:0.4][c:dSG]confused[c:][w:1].",
+        "[e:quiet]That [e:anger][w:0.5][c:O]Scrybe...",
+        "[e:anger][c:][w:1] Do not trust his words."
+      ],
+      "repeatLines": [
+        [
+          "[e:neutral]Back to the field."
+        ],
+        [
+          "[e:quiet][c:dSG]The moon beckons me forth."
+        ],
+        [
+          "[e:anger][c:dSG]This fight cannot continue forever."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnPlayFromHand",
+      "mainLines": [
+        "[e:anger][w:1][c:dO]Scrybe.[c:][w:1] Will this fight last- [leshy:Forever.][w:2]"
+      ],
+      "repeatLines": [
+        [
+          "[e:anger][c:dSG]I will drive my antlers into your stomach, and-",
+          "[leshy:Enough.]"
+        ],
+        [
+          "[e:neutral]In for a penny, in for a pound."
+        ],
+        [
+          "[e:laughter]Point me in the right direction, will you?"
+        ]
+      ]
+    },
+    {
+      "eventName": "ProspectorBoss",
+      "mainLines": [
+        "[e:surprise]That incessant clanging...",
+        "[e:anger]I do not trust that pickaxe...",
+        "[e:quiet]Please, hold onto me.",
+        "[e:quiet]Do not play me in the first phase.[w:0.5] I beg you."
+      ],
+      "repeatLines": [
+        [
+          "[e:anger]This foe again..."
+        ],
+        [
+          "[e:neutral]The Prospector, again? [w:0.4]I see."
+        ],
+        [
+          "[e:anger]Do not forget about his pickaxe."
+        ]
+      ]
+    },
+    {
+      "eventName": "AnglerBoss",
+      "mainLines": [
+        "[e:surprise]What a brute...",
+        "[e:anger]It cares not for the delicate act of butchery.",
+        "[leshy:He cares plenty.][w:0.5]"
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]Should he take me, take me back."
+        ],
+        [
+          "[e:anger]If I wander to the foe's side...",
+          "[e:quiet]Show me no mercy.",
+          "[e:quiet]I will not hold the grudge."
+        ],
+        [
+          "[e:surprise]My nose twitches. The scent of those buckets...",
+          "[e:quiet][c:dSG]It's nauseating..."
+        ]
+      ]
+    },
+    {
+      "eventName": "TrapperTraderBoss",
+      "mainLines": [
+        "[e:quiet]There cannot be one ",
+        "[e:quiet]without the other.",
+        "[e:quiet]Reminds me of a duo",
+        "[e:quiet]I once knew...",
+        "[e:quiet]... [leshy: What do you speak of, hare?][w:0.7]"
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]An endless cycle."
+        ],
+        [
+          "[e:neutral]Flow like water."
+        ],
+        [
+          "[e:anger]This hare cannot be trapped."
+        ],
+        [
+          "[e:anger]This pelt shall not be sold."
+        ]
+      ]
+    },
+    {
+      "eventName": "LeshyBoss",
+      "mainLines": [
+        "[e:anger][c:dSG]Leshy. [c:][w:0.3][leshy:Astrella.]",
+        "[e:anger][c:dSG]You think that",
+        "[e:anger][c:dSG]this form will stop me",
+        "[e:anger][c:dSG]from slaying you? [c:][w:0.3][leshy:Yes.]"
+      ],
+      "repeatLines": [
+        [
+          "[e:anger][c:dSG]And so, we dance this dance again."
+        ],
+        [
+          "[c:dSG]Shall we begin, Scrybe?"
+        ],
+        [
+          "[e:laughter][c:dSG]You really should clean up.[c:][w:0.3][leshy:Silence.]"
+        ],
+        [
+          "[e:quiet][c:dSG]The moon looms... It cries",
+          "[e:quiet][c:dSG]for foresees its fate..."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnAttacked",
+      "mainLines": [
+        "[e:quiet]Agh... That stings.",
+        "[e:quiet]...Good to know that I",
+        "[e:quiet]can still feel, though."
+      ],
+      "repeatLines": [
+        [
+          "The moon will protect me."
+        ],
+        [
+          "A comet strikes the earth[w:0.2]...!"
+        ],
+        [
+          "[e:anger][c:dSG]Pathetic! It does not strike me down."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnBecomeSelectablePositive",
+      "mainLines": [
+        "[e:surprise]What a strange location...",
+        "[e:surprise]My mind wanders, but my heart...",
+        "[e:quiet]It fears."
+      ],
+      "repeatLines": [
+        [
+          "[e:laughter]What a tantalizing opportunity!"
+        ],
+        [
+          "[e:laughter]Please, will you choose me?"
+        ],
+        [
+          "[e:laughter]We will be stronger, together!"
+        ],
+        [
+          "[e:quiet]Two shall become one..."
+        ]
+      ]
+    },
+    {
+      "eventName": "RoyalBoss",
+      "mainLines": [
+        "[e:surprise]B-By the moon!",
+        "[e:surprise]What is...[w:0.7]that?!"
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]This grows tiring."
+        ],
+        [
+          "[e:quiet]One more step,",
+          "[e:quiet]and we will be free..."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnBecomeSelectableNegative",
+      "mainLines": [
+        "[e:quiet]Should the others fear, I will go."
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]I offer myself."
+        ],
+        [
+          "[e:quiet]If it will help you..."
+        ],
+        [
+          "[e:quiet]..."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSacrificed",
+      "mainLines": [
+        "[e:surprise]No! No!"
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]The darkness consumes..."
+        ],
+        [
+          "[e:quiet]Release, for now..."
+        ],
+        [
+          "[e:quiet]A welcome respite..."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSelectedForDeckTrial",
+      "mainLines": [
+        "[e:surprise]A trial?[w:0.5.] Strange...",
+        "[e:laughter]But we will succeed."
+      ],
+      "repeatLines": [
+        [
+          "[e:laughter]Again? No bother!"
+        ],
+        [
+          "We will succeed!"
+        ],
+        [
+          "This will go in our favor."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSelectedForCardRemove",
+      "mainLines": [
+        "[e:quiet]...I will go."
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]I volunteer."
+        ],
+        [
+          "[e:quiet]Will it hurt...?"
+        ],
+        [
+          "[e:quiet]Please, make it quick."
+        ]
+      ]
+    }
+  ]
+}

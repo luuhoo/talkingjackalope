@@ -1,0 +1,14 @@
+{
+  "decks": [
+    {
+      "name": "Creation",
+      "iconTexture": "luu_creation.png",
+      "cards": [ "Jackalope", "wolf", "stoat", "goat", ]
+    },
+    {
+      "name": "The Moon's Embrace",
+      "iconTexture": "luu_moonsembrace.png",
+      "cards": [ "Jackalope", "raven", "goat" ]
+    }
+  ]
+}
