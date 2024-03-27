@@ -6,13 +6,20 @@ She can be found randomly via. random card draws or trader's inventories. I'd li
 
 Jackalope has unique lore, animated portraits, a unique voice pitch, and unique dialogue for nearly every in-game situational (excluding between-cards conversations, e.g. Stoat and Stinkbug talking to each other)
 
-In addition, this mod also adds 2 starter decks:*
+
+
+## CHANGELOG
+- V1 - Initial Release.
+- V2, Unpublished - Fixed the portraits glitching, fixed(?) the starter decks not appearing properly.
+- V2.5 - Added TONS of new dialogue, changed ~~Astrella~~ Jackalope's relationship with Leshy to be a bit more friendly (lore reasons.)
+
+In addition, this mod also adds 2 starter decks:
 | Name           | Cards                                            |
 |----------------|--------------------------------------------------|
 | Creation	 | Jackalope (Talking), Elk, Wolf, Stoat, Cockroach |
 | Moon's Embrace | Jackalope (Talking), Raven, Grizzly Bear, Cat    |
 
-*Starter decks do not seem to be selectable. If there's a way to fix that, please let me know! Maybe I just typed the card IDs in wrong?
+
 # Installation
 This mod’s dependencies are BepInEx, the InscryptionAPI, JSONCardLoader and TalkingCardAPI.
 
@@ -22,11 +29,9 @@ I don't believe I'd be able to help you with any bugs that came up on behalf of 
 
 
 ### KNOWN ISSUES
-Portraits may sometimes glitch out, i.e. expressions disappear for certain dialogue lines.
-Antlers and ears clip the edges of the card's borders. Unfixable until further notice (as in, until I find the correct aspect ratio.)
-'Laughter' emotion may still show an emission sprite despite her eyes being closed - under investigation.
-I am 90% sure this mod DOES NOT function with Orochi_Umbra's amazing NodeBane mod, unfortunately.
-
+- Antlers and ears clip the edges of the card's borders. Unfixable until further notice (as in, until I find the correct aspect ratio.)
+- 'Laughter' emotion may still show an emission sprite despite her eyes being closed - under investigation.
+- I am 90% sure this mod DOES NOT function with Orochi_Umbra's amazing NodeBane mod, unfortunately.
 
 
 To copy directly from KellyBetty's Talking Opossum README:
